@@ -1,0 +1,4 @@
+rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+1,0.32,extra_trees,0.4927627971979449,244.02561855316162,662,0.07655229574719713,0,1724602580.0451596,1724602824.0888896,0.0,StatusType.SUCCESS,[],['polynomial'],,Local Search
+2,0.22,extra_trees,0.49552142414311384,597.1423065662384,574,0.06155481891220149,0,1724598777.534455,1724599374.7061493,0.0,StatusType.SUCCESS,[],['polynomial'],,Local Search
+3,0.46,extra_trees,0.49817262158913267,531.7387037277222,550,0.08164526824865903,0,1724597733.419726,1724598265.1903389,0.0,StatusType.SUCCESS,[],['polynomial'],,Local Search

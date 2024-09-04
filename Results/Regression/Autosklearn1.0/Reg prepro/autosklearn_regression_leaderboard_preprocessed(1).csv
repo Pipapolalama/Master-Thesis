@@ -1,0 +1,9 @@
+rank,ensemble_weight,type,cost,duration,config_id,train_loss,seed,start_time,end_time,budget,status,data_preprocessors,feature_preprocessors,balancing_strategy,config_origin
+1,0.34,adaboost,0.7275173133134318,95.07948327064514,1040,0.3867034886964028,0,1724617261.7430973,1724617356.8697026,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_regression'],,Local Search
+2,0.06,adaboost,0.7287431422136542,135.34165287017822,1502,0.35087377670696895,0,1724620888.159728,1724621023.554898,0.0,StatusType.SUCCESS,[],['select_percentile_regression'],,Local Search
+3,0.06,adaboost,0.7287669376734297,109.8074095249176,1530,0.36537973987895156,0,1724621232.173199,1724621342.0388305,0.0,StatusType.SUCCESS,[],['select_percentile_regression'],,Local Search
+4,0.02,random_forest,0.7295855101574856,58.232792139053345,1613,0.36556653156055896,0,1724621966.1684031,1724622024.4410887,0.0,StatusType.SUCCESS,[],['select_rates_regression'],,Local Search
+5,0.22,random_forest,0.7305013563136183,33.21322464942932,1348,0.3546211249392244,0,1724619650.6680765,1724619683.908211,0.0,StatusType.SUCCESS,[],['select_rates_regression'],,Local Search
+6,0.06,adaboost,0.7307480215499994,142.9201512336731,1586,0.36404553110099025,0,1724621708.9262452,1724621851.8783429,0.0,StatusType.SUCCESS,[],['no_preprocessing'],,Local Search
+7,0.1,random_forest,0.7312314275087635,10.741094827651978,1021,0.4732595015811498,0,1724617144.8070815,1724617155.6092474,0.0,StatusType.SUCCESS,[],['select_rates_regression'],,Local Search
+8,0.14,random_forest,0.7314775698548779,80.84450507164001,1094,0.4073480149274261,0,1724617641.353338,1724617722.2171826,0.0,StatusType.SUCCESS,[],['extra_trees_preproc_for_regression'],,Local Search
